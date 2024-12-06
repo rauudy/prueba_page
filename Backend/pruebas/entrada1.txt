@@ -1,0 +1,21 @@
+literal = "foo";
+literal = 'foo';
+rango = [a-c];
+conjunto = [abc]          
+
+
+
+regla_1 = regla_2; regla_2 = "foo"
+
+
+
+
+
+grupo = ( "foo" )
+cero_o_mas = "foo" *
+una_o_mas = "foo" +          
+
+
+regla = "foo" ?
+concatenacion = "foo" "bar" "baz"
+opciones = "foo" / "bar" / "baz"

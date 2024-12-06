@@ -1,3 +1,6 @@
+Backend/peggy/*.js
+dist/peggy/
+
 # Logs
 logs
 *.log

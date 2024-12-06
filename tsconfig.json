@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        /*"module": "NodeNext",
+        "moduleResolution": "NodeNext",*/
+        "target": "ES2021",
+        "skipLibCheck": true,
+        "allowJs": true,
+        "outDir": "./Backend/dist"
+    },
+    "include": [
+        "Backend/src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
