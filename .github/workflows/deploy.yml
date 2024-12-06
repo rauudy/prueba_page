@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies and build
         run: |
           npm install
-          npm run start
+          npm run compile
+          npm run build
           
 
       # Configurar y desplegar el frontend
