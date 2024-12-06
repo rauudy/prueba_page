@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies and build
         run: |
           npm install
-          npm run build
+          npm run start
+          
 
       # Configurar y desplegar el frontend
       - name: Deploy frontend to GitHub Pages
