@@ -26,7 +26,7 @@ jobs:
           npm install
           npm run compile
           npm run build
-          
+          cp Backend/dist/src/index.js Frontend/
 
       # Configurar y desplegar el frontend
       - name: Deploy frontend to GitHub Pages
